@@ -1,0 +1,131 @@
+.bg-homepage {
+    background-image: url(../img/wine-history-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200vh;
+}
+
+.marginTop1 {
+    margin-top: 140px;
+    margin-top: 10px;
+    margin-bottom: 20px
+    
+}
+
+.fontSize1 {
+    font-size: 100px;
+}
+
+.marginTop2 {
+    margin: 240px auto 60px;
+    margin: 20px;
+}
+
+.bg-third {
+    background-image: url(../img/redddd.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 120vh;
+}
+
+
+
+.w-40 {
+    width: 70%;
+}
+
+.custom-height {
+    height: 50%;
+}
+
+footer {
+    height: 350vh;
+    background-image: url(../img/sahar21.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.line {
+    width: 94%;
+    height: 2px;
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    top: -35px;
+    left: 42%;
+}
+
+.imgFooter {
+    width: 120px;
+}
+
+
+@media screen and (min-width: 992px) {
+    .bg-homepage {
+        height: 120vh;
+    }
+
+    .row  {
+        margin-right: 40px;
+    }
+
+    .roundedStart1 {
+        border-radius: 12px 0 0 12px !important;
+    }
+
+    .roundedStart2 {
+        border-radius: 0 12px 12px 0 !important;
+    }
+
+    form>div {
+        width: 48%;
+    }
+
+    .padding1 {
+        padding: 90px 48px !important;
+    }
+
+    .marginTop2 {
+        margin: 140px auto 60px;
+    }
+
+    .bg-third {
+        height: 50vh;
+    }
+
+    .app {
+        height: 60vh;
+    }
+
+    .w-40 {
+        width: 40%;
+    }
+
+    .custom-height {
+        height: 100%;
+    }
+
+    footer {
+        height: 190vh;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .line {
+        width: 100%;
+        
+    }
+
+    .circle {
+        left: 47%;
+    }
+}
+
+
